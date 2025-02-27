@@ -1,0 +1,52 @@
+/* Footer Container */
+.footer-container {
+    background-color: #222222; /* Light black */
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Bold text for description */
+  .bold-text {
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Navigation List Styling */
+  .nav {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Custom Styling for Links */
+  .nav-link {
+    color: white !important;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Active and Hover Effects */
+  .nav-link.active {
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    transform: translateY(3px);
+    box-shadow: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav {
+      margin-bottom: 15px;
+    }
+  }
+  
