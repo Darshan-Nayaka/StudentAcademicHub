@@ -1,0 +1,60 @@
+/* Custom Header Styling */
+.custom-header {
+    background-color: #222222; /* Light Black */
+    box-shadow: 0 20px 30px -6px rgba(0, 0, 0, 0.5);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  /* Branding / Title */
+  .navbar-brand {
+    font-family: "Dosis", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    cursor: default; /* Prevents unwanted hover effects */
+  }
+  
+  /* Prevents text from disappearing on hover */
+  .navbar-brand:hover {
+    color: white;
+  }
+  
+  /* Navigation Container */
+  .nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Custom Button Styling for Links */
+  .custom-btn {
+    transition: all 0.3s ease-in-out;
+    font-family: "Dosis", sans-serif;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white !important;
+    border-radius: 50px;
+    background-color: #333333; /* Darker Black */
+    box-shadow: 0 10px 20px -6px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  /* Hover & Active Effects */
+  .custom-btn:hover {
+    transform: translateY(3px);
+    box-shadow: none;
+    background-color: #444444; /* Slightly lighter black */
+  }
+  
+  .custom-btn:active {
+    opacity: 0.7;
+  }
+  
