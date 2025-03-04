@@ -9,7 +9,7 @@ const TopHeader = () => {
 
 <ul className="nav">
   <li className="nav-item">
-    <a className="nav-link text-dark font-bold text-2xl" href="/">ALLORA</a>
+    <a className="nav-link text-dark font-bold text-2xl" href="/">StudentAcademicHub</a>
   </li>
 
 </ul>
